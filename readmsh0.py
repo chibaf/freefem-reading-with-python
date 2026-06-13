@@ -6,6 +6,7 @@ print(len(lines_rstrip))
 print(lines_rstrip[0])
 a=lines_rstrip[0].split(" ")
 b=[int(a[0]),int(a[1]),int(a[2])]
+print(int(a[0])+int(a[1])+int(a[2])+1)
 print(b)
 c=lines_rstrip[1:b[0]+1]
 d=lines_rstrip[b[0]+1:b[0]+b[1]+1]
