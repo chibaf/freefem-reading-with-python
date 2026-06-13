@@ -11,6 +11,8 @@ c=lines_rstrip[1:b[0]+1]
 d=lines_rstrip[b[0]+1:b[0]+b[1]+1]
 e=lines_rstrip[b[0]+b[1]+1:b[0]+b[1]+b[2]+1]
 print(len(c))
+print(c[0]);print(c[len(c)-1])
 print(len(d))
+print(d[0]);print(d[len(d)-1])
 print(len(e))
-print(e[len(e)-1])
+print(e[0]);print(e[len(e)-1])
